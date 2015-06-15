@@ -1,0 +1,16 @@
+{
+  "name": "sockettest",
+  "version": "1.0.0",
+  "description": "Socket test mate",
+  "main": "server.js",
+  "dependencies": {
+    "primus.io": "^3.1.2",
+    "ws": "^0.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
