@@ -4,7 +4,7 @@
   "description": "Socket test mate",
   "main": "server.js",
   "dependencies": {
-    "primus.io": "git@github.com:orionstein/primus.io.git",
+    "primus.io": "https://github.com/orionstein/primus.io.git",
     "ws": "^0.7.2"
   },
   "scripts": {

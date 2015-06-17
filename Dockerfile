@@ -21,7 +21,7 @@ RUN sudo mkdir -p /usr/src/app
 
 WORKDIR /usr/src/app
 
-RUN tce-load -wic coreutils git python make gcc glibc_base-dev gdbm-dev zlib_base-dev  \
+RUN tce-load -wic coreutils git python make gcc ssh glibc_base-dev gdbm-dev zlib_base-dev  \
         binutils \
         file \
     && cd /tmp \
